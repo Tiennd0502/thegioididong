@@ -1,0 +1,121 @@
+.accessories-list{
+	overflow: hidden;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.accessories-list > a{
+	display: block;
+	background: #fff;
+  border-right: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  width: 10%;
+  height: 118px;
+  position: relative;
+  box-sizing: border-box;
+}
+.accessories-list > a:hover:not(.actac){
+	border: 1px solid #4a90e2 ;
+}
+.accessories-list > a:nth-child(1),
+.accessories-list > a:nth-child(2),
+.accessories-list > a:nth-child(3),
+.accessories-list > a:nth-child(4),
+.accessories-list > a:nth-child(5),
+.accessories-list > a:nth-child(6),
+.accessories-list > a:nth-child(7),
+.accessories-list > a:nth-child(8),
+.accessories-list > a:nth-child(9),
+.accessories-list > a:nth-child(10){
+	border-top: 1px solid #f3f3f3;
+}
+.accessories-list > a:nth-child(10n+1){
+	border-left: 1px solid #f3f3f3;
+  border-top: 1px solid #f3f3f3;
+}
+.accessories-list > a.actac{
+	border: 1px solid #f89406;
+}
+.accessories-list > a.actac h3{
+	color: #f89406;
+}
+.accessories-list > a img{
+	position: relative;
+  display: block;
+  width: auto;
+  height: 55px;
+  margin: 10px auto 0;
+}
+.accessories-list > a h3{
+	display: block;
+  padding: 2px 3px;
+  font-size: 13px;
+  color: #000;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 10px;
+  max-height: 40px;
+  overflow: hidden;
+  font-weight: 500;
+}
+.accessories-list > a.show-accessory{
+	display: none;
+}
+.shock-accessories-header img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  margin-bottom: -10px;
+}
+.accessories{
+  border: 3px solid #ba0953; 
+  padding: 10px 10px 0 0;
+}
+.accessories .home-product{
+  border-top: none;
+}
+.accessories .home-product > div{
+  border: 1px solid #ececec;
+  width: 24.2%;
+  max-width: 24.2%;
+  margin-bottom: 15px;
+  margin-left: 12px;
+}
+.accessories .home-product > div h3{
+  margin-bottom: 5px;
+}
+.accessories .home-product > div:hover h3{
+  color: #288ad6;
+}
+.accessories .home-product div > a:first-child{
+  padding: 0 0 8px;
+}
+.accessories .home-product > div a img{
+  display: block;
+  margin: 0 auto 20px;
+  height: auto;
+  width: 100%;
+  max-height: 287px;
+}
+.accessories .home-product > div a h3{
+  font-weight: 600;
+}
+.accessories .home-product div > a.botbtn{
+  display: block;
+  width: 120px;
+  color: #f89406;
+  border: 1px solid #f89406;
+  padding: 5px 20px;
+  bottom: 10px;
+  margin: auto;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.accessories .home-product div > a.botbtn:hover{
+  color: #fff;
+  background: #f89406;
+}

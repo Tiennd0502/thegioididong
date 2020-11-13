@@ -1,0 +1,108 @@
+@font-face {
+	font-family: "ROBOTO BOLD";
+	src: url("../fonts/roboto/Roboto-Bold.ttf");
+}
+@font-face {
+	font-family: "ROBOTO LIGHT";
+	src: url("../fonts/roboto/Roboto-Light.ttf");
+}
+.login{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+  padding-top: 0;
+  font-family: "ROBOTO LIGHT";
+  background: transparent url("../images/bg.png") repeat center top;
+  /* min-height: calc(100vh - 55px);
+  max-width: 100% !important; */
+}
+.login > div {
+  margin: 0 auto;
+  width: 500px;
+  border: 1px solid #ccc;
+  padding: 25px 0;
+  background-color: #fff;
+}
+.login > div > img {
+  max-width: 100%;
+}
+.login > div > * {
+  display: block;
+  margin-bottom: 25px;
+}
+.login > div > span > b {
+  font-family: "ROBOTO BOLD";
+}
+.login > div > form >* {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.login >.step1-login{
+	margin-top: 10px;
+}
+.login > .step2-login{
+	margin-top: 80px;
+}
+.login > div > span {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.login > div > form > input {
+	display: block;
+	margin: 0 auto;
+	outline: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 100px;
+  width: 302px;
+  height: 48px;
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-position: 25px center;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.login > .step1-login > form >input {
+  background-image: url("../images/icon-phone-blue.png");
+  background-size: 14px 21px;
+}
+.login > .step2-login > form >input {
+  background-image: url("../images/icon-lock.png");
+  background-size: 16px 17px; 
+  text-align: center; 
+  padding-left: 25px;
+}
+.login > .step2-login > span {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+}
+.login > div > form > input::placeholder{
+	color: #757579;
+}
+.login > div > form > label {
+  color: #f01;
+  margin-bottom: 15px;
+  width: 90%;
+}
+.login > div > a {
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+}
+.btn{
+	background-image: linear-gradient(-106deg,#51beed 2%,#288ad6 100%);
+  box-shadow: 0 2px 6px 0 #9ed4ec;
+  border-radius: 100px;
+  width: 302px;
+  height: 50px;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 17px;
+}
+.btn:hover{
+	background-image: linear-gradient(-106deg,#51beed 2%,#288ad6 2%);
+}

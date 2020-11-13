@@ -1,0 +1,355 @@
+.fwatch-carousel{
+	margin-bottom: 20px;
+}
+.fwatch-carousel .banner #owl-home{
+	width: 100%;
+  height: 100%;
+}
+/* find-watch */
+.find-watch{
+  display: block;
+  overflow: hidden;
+  background: #fff;
+  padding: 10px;
+  margin: 15px 0;
+  position: relative;
+}
+.find-watch > .content-find{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.content-find >a{
+  display: block;
+  width: 25%;
+  max-width: 25%;
+  border-left: 1px solid #ddd;
+  text-align: center;
+  position: relative;
+}
+.content-find >a:first-child{
+  border-left: none;
+}
+.content-find >a >.news-fwatch{
+  position: absolute;
+  right: 38px;
+  top: 6px;
+  color: #fff ;
+  background-color: #f00;
+  font-size: 12px ;
+  border-radius: 4px;
+  padding: 0 3px;
+  padding-top: 2px;
+  line-height: 1.3;
+}
+.content-find >a >img{
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  overflow: hidden;
+  width: 60px;
+}
+.content-find >a > .name-kind{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 15px 0;
+  padding-right: 10px;
+  text-align: left;
+}
+.name-kind >strong{
+  display: block;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333;
+  padding: 5px 0;
+}
+/* top 10 sp bán chạy */
+h3.heading-top{
+  background: transparent url("../images/title-bestseller-min.png") no-repeat center top;
+  height: 63px;
+  text-indent: -9999px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+h3.heading-top + div{
+  margin-top: 0;
+  background-color: #fff;
+}
+.product-clock .navigat{
+	margin-top: 0;
+}
+.tab-watch > button{
+  font-size: 14px;
+  display: inline;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #288ad6;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 15px 5px 10px 10px;
+  background: #fff;
+  color: #288ad6;
+  cursor: pointer;
+  outline: none;
+}
+.tab-watch >button:first-child{
+  /* margin-left: 0; */
+}
+.tab-watch > .current{
+  background: #e3effc;
+  font-weight: 600;
+}
+.tab-watch + .view-all >a {
+  position: relative;
+}
+.tab-watch + .view-all > a i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  font-size: 10px;
+}
+.tab-watch + .view-all >a:hover{
+  text-decoration: none
+}
+.contents .home-promo .item,
+.tab-content .home-promo .item{
+	border-right: 1px solid #eee;
+}
+
+.home-promo.w-max .owl-item img{
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.home-promo.w-max .owl-item img.icon-imgNew {
+  height: auto;
+  min-width: 50px;
+}
+.home-promo.w-max .owl-item img.icon-imgNew.cate2{
+  height: auto;
+  width: 50px;
+}
+.owl-watch-couple .owl-item img {
+  max-width: 75%;
+  height: auto;
+}
+.contents{
+	display: none;
+}
+.contents.current{
+	display: block;
+}
+/* fashion-watch */
+.fashion-watch{
+  display: block;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.fashion-watch > a{
+  display: block;
+}
+.box-watches{
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.man-heading{
+  background-color: #000;
+  width: 20%;
+  position: relative;
+}
+.man-heading div{
+  position: absolute;
+  display: block;
+  top: 326px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 60%;
+}
+.man-heading div h2{
+  display: block;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+.wag .man-heading div h2{
+  display: none;/*  thêm từ js */
+  padding-top: 5px;
+  line-height: 1.4;
+}
+.wag .man-heading div a {
+  text-indent: -9999px;
+  border: none;
+  width: 100px;
+  display: inline-block;
+}
+.man-heading div a {
+  display: block;
+  overflow: hidden;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+}
+.man-heading img {
+  width: 100%;
+  display: block;
+  height: auto;
+  max-height: 386px;
+}
+.content-watches{
+  background-color: #0e2432;
+  width: 80%;
+}
+.box-watches.women .content-watches {
+  background: #ebc8c3;
+  background-color: #c9cad0;
+}
+
+.content-watches .tabs{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-watches.women .tabs .tabs-link * {
+  color: #333;
+}
+.tabs .tabs-link > *{
+  background: none;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px 5px 15px;
+  cursor: pointer;
+  position: relative;
+}
+.tabs .tabs-link a i{
+  margin-left: 5px;
+  font-size: 12px;
+}
+.tabs-link > .current{
+  font-weight: 600;
+}
+.tabs-link .current:after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 43%;
+  border-bottom: 8px solid #fff;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  z-index: 10;
+}
+.tab-content.current {
+  display: block;
+}
+.tab-content {
+  display: none;
+  background: #fff;
+  margin: 8px 10px 10px;
+  border-radius: 6px;
+  position: relative;
+  min-height: 370px;
+}
+.tab-content .owl-carousel {
+  overflow: hidden;
+  max-height: 386px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#girlpro .owl-carousel .owl-item img {
+  max-width: 85%;
+  height: auto;
+}
+#girlpro .owl-carousel .owl-item img.icon-imgNew {
+  width: 45px;
+  height: auto;
+}
+#girlpro .owl-carousel .owl-item img.icon-imgNew.cate2 {
+  width: 50px;
+  height: auto;
+}
+h3.tabs{
+  position: relative;
+  padding: 0 10px;
+  display: block;
+  background-image: url("../images/title-dayda-min.png");
+  height: 44px;
+  line-height: 44px;
+  font-weight: 500;
+  text-align: right;
+  margin: 0;
+}
+h3.tabs >a.read-more{
+  font-size: 14px;
+  display: block;
+  overflow: hidden;
+  color: #000;
+}
+h3.tabs >a.read-more i{
+  font-size: 10px;
+  margin-left: 8px;
+  font-weight: 600;
+}
+.lunar footer:before {
+  background: transparent url("../images/bg_footer-min.png") no-repeat center top;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1231px;
+  height: 1231px;
+  width: 100%;
+  z-index: -1;
+}
+@media screen and (max-width: 1366px){
+  a.leftgame >img {
+    width: 100px;
+    left: calc((100% - 1200px)/2 - 95px) !important;
+  }
+  a.rightgame >img {
+    width: 80px;
+    /* right: calc((100% - 1200px)/2 - 95px) !important; */
+  }
+}
+/* swatch */
+.filter-trademark.trademark-watch{
+  background-color: #fff;
+  padding-left: 1px;
+  margin-bottom: 0px;
+}
+.filter-trademark.trademark-watch > a{
+  width: 14.28%;
+  max-width: 14.3%;
+}
+.filter-trademark.trademark-watch > a:nth-child(8){
+  border-top: none;
+}
+.filter-trademark.trademark-watch > a:nth-child(9){
+  border-left: none;
+}
+.filter-other.trademark-watch{
+  background-color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+h3.tabs.watchw{
+  background-image: url("../images/title-smartwatchfeature-min.png");
+}
